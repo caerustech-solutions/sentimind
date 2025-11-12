@@ -24,7 +24,7 @@ It’s lightweight, fast, and requires zero configuration.
 
 ## ⚙️ Installation
 
-### Option 1: Download JAR file
+#### Download JAR file
 
 1. Visit the **[Releases](https://github.com/caerustech-solutions/sentimind/releases)** page.  
 2. Download the latest `sentimind-sdk-<version>.jar` file.  
@@ -73,4 +73,3 @@ public class ExampleBatch {
 }
 ```
 
-## 🧩 Requirements
