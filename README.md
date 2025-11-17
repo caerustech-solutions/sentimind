@@ -43,7 +43,7 @@ Now you can import and use the `SentimindClient` class directly.
 
 ### Analyze single text
 ```java
-import com.sentimind.client.SentimindClient;
+import com.sentimindlabs.*;
 
 public class Example {
     public static void main(String[] args) {
@@ -59,8 +59,8 @@ public class Example {
 ### Analyze multiple texts (batch mode)
 
 ```java
+import com.sentimindlabs.*;
 import java.util.List;
-import com.sentimind.client.SentimindClient;
 
 public class ExampleBatch {
     public static void main(String[] args) {
