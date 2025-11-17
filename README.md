@@ -14,11 +14,11 @@ It’s lightweight, fast, and requires zero configuration.
 
 ## ✨ Features
 
-- ✅ **Simple setup** — Works instantly with Java 11+  
-- 💬 **Easy-to-use client** — Send text and receive structured sentiment results  
-- 🧩 **Batch support** — Analyze multiple sentences in one call  
-- 📊 **JSON-based responses** — Sentiment labels with confidence scores  
-- ⚡ **Lightweight** — Designed for microservices, bots, and data pipelines  
+- ✅ **Simple setup** — Works instantly with Java 11+
+- 💬 **Easy-to-use client** — Send text and receive structured sentiment results
+- 🧩 **Batch support** — Analyze multiple sentences in one call
+- 📊 **JSON-based responses** — Sentiment labels with confidence scores
+- ⚡ **Lightweight** — Designed for microservices, bots, and data pipelines
 
 ---
 
@@ -26,13 +26,13 @@ It’s lightweight, fast, and requires zero configuration.
 
 #### Download JAR file
 
-1. Visit the **[Releases](https://github.com/caerustech-solutions/sentimind/releases)** page.  
-2. Download the latest `sentimind-sdk-<version>.jar` file.  
+1. Visit the **[Releases](https://github.com/caerustech-solutions/sentimind/releases)** page.
+2. Download the latest `sentimind-sdk-<version>.jar` file.
 3. Add it to your project’s **classpath**.
 
 #### In IntelliJ IDEA:
-- Open **File → Project Structure → Libraries → + → Java**  
-- Select the downloaded `.jar` file  
+- Open **File → Project Structure → Libraries → + → Java**
+- Select the downloaded `.jar` file
 - Click **Apply** and **OK**
 
 Now you can import and use the `SentimindClient` class directly.
