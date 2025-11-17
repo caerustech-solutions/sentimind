@@ -48,8 +48,10 @@ import com.sentimind.client.SentimindClient;
 public class Example {
     public static void main(String[] args) {
         SentimindClient client = new SentimindClient();
-        String sentiment = client.analyzeSentiment("Market outlook remains strong for Q4 earnings.");
-        System.out.println(sentiment);
+        SingleSentimentResponse single = client.analyzeSentiment(
+                "Something is wrong with the company, the stock is collapsing"
+        );
+        System.out.println(single);
     }
 }
 ```
@@ -63,12 +65,14 @@ import com.sentimind.client.SentimindClient;
 public class ExampleBatch {
     public static void main(String[] args) {
         SentimindClient client = new SentimindClient();
-        List<String> texts = List.of(
-            "The market is showing positive momentum.",
-            "Investors are concerned about inflation data."
+        BatchSentimentResponse batch = client.analyzeBatchSentiment(
+                List.of(
+                        "The stock is going down fast",
+                        "Maybe it is not as bad as we thought it would be, might gain some",
+                        "Nah, the company is done. Kaput!"
+                )
         );
-        String result = client.analyzeBatch(texts);
-        System.out.println(result);
+        System.out.println(batch);
     }
 }
 ```
